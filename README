@@ -1,0 +1,8 @@
+Overview
+
+This folder contains two particle systems designed for the Cell Broadband Engine.
+One uses a data parallel paradigm, the other a service model. They are designed to run on the
+IBM Full System Simulator. Since the simulated environment does not include a GPU the graphics
+data is sent over a virtual network to a rendering client which is in the host_gfx folder.
+
+There are two effects: rain and explosions
